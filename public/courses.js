@@ -2,7 +2,7 @@
 const products = [
   {
     id: 1,
-    name: "AI Agent Practical Course",
+    name: "Complete AI Agent Practical Course",
     price: 0,
     category: "ai",
     desc: "7h 46m • ⭐ 4.97 • 1638 students",
@@ -11,7 +11,7 @@ const products = [
   },
   {
     id: 2,
-    name: "Ethically Hack – Part 4",
+    name: "Ethically Hack the Planet – Part 4",
     price: 0,
     category: "cybersecurity",
     desc: "52m • ⭐ 3.95 • 51,250 students",
