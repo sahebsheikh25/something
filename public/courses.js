@@ -372,3 +372,19 @@ document.addEventListener('DOMContentLoaded',()=>{
     renderProducts();
     try{ updateClear(); }catch(e){}
 });
+// ===== OFFER TEXT ROTATION =====
+const offerTexts = [
+  "🔥 Free Courses for Limited Time 🔥",
+  "⚡ 100% FREE Udemy Courses Today ⚡",
+  "🎓 Learn AI, Cybersecurity & Coding FREE 🎓",
+  "🚀 Daily New Free Courses Added 🚀"
+];
+
+const offerEl = document.getElementById("offerText");
+
+let offerIndex = 0;
+setInterval(() => {
+  if (!offerEl) return;
+  offerIndex = (offerIndex + 1) % offerTexts.length;
+  offerEl.textContent = offerTexts[offerIndex];
+}, 6000); // change every 6 sec
