@@ -89,7 +89,116 @@ const products = [
     desc: "16h 20m • ⭐ 3.81 • 56,124 students",
     img: "/assets/store/udemy-python.svg",
     amazonUrl: "https://www.udemy.com/course/the-complete-python-bootcamp-from-zero-to-expert/?couponCode=AE3667B2EEADEFEAB7D2"
-  }
+  },
+{
+  id:9,
+  name:'AI in HR – Master 100+ AI Tools',
+  price:0,
+  category:'beginner',
+  desc:'6h 42m | ⭐ 3.84 | 16,766 students',
+  img:'assets/store/course-ai.svg',
+  amazonUrl:'https://www.udemy.com/course/ai-hr-become-master-of-ai-in-hr-world-learn-100-ai-tools/?couponCode=PAPAHR_JAN_03'
+},
+{
+  id:10,
+  name:'Professional Diploma in Branding',
+  price:0,
+  category:'beginner',
+  desc:'1h 46m | ⭐ 4.46 | 36,292 students',
+  img:'assets/store/course-branding.svg',
+  amazonUrl:'https://www.udemy.com/course/professional-diploma-in-branding-and-brand-management/?couponCode=3CFA01CC7E83825998A5'
+},
+{
+  id:11,
+  name:'ETABS From Zero to Hero',
+  price:0,
+  category:'intermediate',
+  desc:'5h 22m | ⭐ 4.41 | 24,473 students',
+  img:'assets/store/course-etabs.svg',
+  amazonUrl:'https://www.udemy.com/course/etabs-from-zero-to-hero/?couponCode=AFF4FFE3E6BFD09CD993'
+},
+{
+  id:12,
+  name:'Python Development – First Steps',
+  price:0,
+  category:'beginner',
+  desc:'1h | ⭐ 4.19 | 39,092 students',
+  img:'assets/store/course-python.svg',
+  amazonUrl:'https://www.udemy.com/course/python-development-first-steps-and-development-ide-platform/?couponCode=645A7E2B0A39083F062E'
+},
+{
+  id:13,
+  name:'AI Cyber Security Mastery',
+  price:0,
+  category:'advanced',
+  desc:'3h 11m | ⭐ 4.55 | 12,355 students',
+  img:'assets/store/course-cyber-ai.svg',
+  amazonUrl:'https://www.udemy.com/course/ai-cyber-security-mastery/?couponCode=D242CEBFF78671B71FA1'
+},
+{
+  id:14,
+  name:'AutoCAD 2D Complete Course',
+  price:0,
+  category:'beginner',
+  desc:'12h 53m | ⭐ 4.28 | 53,212 students',
+  img:'assets/store/course-autocad.svg',
+  amazonUrl:'https://www.udemy.com/course/learn-autocad-2d/?couponCode=37E398B0419B8D2816DF'
+},
+{
+  id:15,
+  name:'Become Expert in Python by Projects',
+  price:0,
+  category:'intermediate',
+  desc:'10h 36m | ⭐ 4.29 | 13,945 students',
+  img:'assets/store/course-python-adv.svg',
+  amazonUrl:'https://www.udemy.com/course/become-experts-in-python-by-exercises-by-projects/?couponCode=4561FE1C0FB347A1471E'
+},
+{
+  id:16,
+  name:'PHP & MySQL – Build Travel Website',
+  price:0,
+  category:'intermediate',
+  desc:'7h 39m | ⭐ 4.4 | 33,236 students',
+  img:'assets/store/course-php.svg',
+  amazonUrl:'https://www.udemy.com/course/php-with-mysql-2023-build-complete-tours-and-travel-website/?couponCode=PHPTOURS59'
+},
+{
+  id:17,
+  name:'Machine Learning Foundations',
+  price:0,
+  category:'advanced',
+  desc:'17h 29m | ⭐ 4.73 | 4,377 students',
+  img:'assets/store/course-ml.svg',
+  amazonUrl:'https://www.udemy.com/course/machine-learning-foundations-build-expert-level-ai-models/?couponCode=1EBC7A3AF2ECC74B225C'
+},
+{
+  id:18,
+  name:'Ultimate Coding Mega Course',
+  price:0,
+  category:'beginner',
+  desc:'129h 50m | ⭐ 3.95 | 81,745 students',
+  img:'assets/store/course-mega.svg',
+  amazonUrl:'https://www.udemy.com/course/top-course/?couponCode=E2BF09F1EEAED022FC7A'
+},
+{
+  id:19,
+  name:'Business English for Leadership',
+  price:0,
+  category:'beginner',
+  desc:'⭐ English for management & leadership',
+  img:'assets/store/course-english.svg',
+  amazonUrl:'https://www.udemy.com/course/business-english-for-management-and-leadership/?couponCode=F5E62CFFC2996E47407F'
+},
+{
+  id:20,
+  name:'JavaScript Bootcamp – 11 Apps',
+  price:0,
+  category:'intermediate',
+  desc:'⭐ Build 11 JS apps (web)',
+  img:'assets/store/course-js.svg',
+  amazonUrl:'https://www.udemy.com/course/build-11-javascript-application-and-web-javascript-bootcamp/?couponCode=EDD7CD82F922864A4A81'
+}
+
 ];
 
 
