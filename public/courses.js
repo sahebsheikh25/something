@@ -278,6 +278,11 @@ function renderProducts(){
     filtered.forEach(p => {
       const card = document.createElement('article');
       card.className = 'card';
+      card.style.setProperty(
+    "--card-bg",
+    `url(${p.img})`
+    );
+
       const isFree = (p.price === 0);
       const buyLabel = isFree ? 'Free' : 'Enroll';
       const buyClass = isFree ? 'btn neon free buy' : 'btn neon buy';
