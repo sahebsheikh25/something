@@ -1,0 +1,31 @@
+/* Page specific tweaks for store/courses */
+.store-header{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:18px 0;
+  margin-top:15;/* DESKTOP NAVBAR GAP */
+}
+
+@media(min-width:800px){.store-header{flex-direction:row;align-items:center;justify-content:space-between}}
+.store-brand{display:flex;gap:12px;align-items:center}
+.store-logo{width:56px;height:56px}
+.search-wrap{display:flex;gap:8px;align-items:center}
+.search-wrap input{padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.04);background:transparent;color:var(--text)}
+.filter-btn{background:transparent;border:1px solid rgba(255,255,255,0.04);padding:6px 10px;border-radius:8px;cursor:pointer;color:var(--muted)}
+.filter-btn.active{border-color:transparent;background:linear-gradient(90deg,#7a00ff,#3bd1ff);color:#fff}
+.back-btn{display:inline-flex;align-items:center;gap:10px;padding:8px 12px;border-radius:10px;text-decoration:none}
+
+/* ===== FORCE NAVBAR GAP FIX (FINAL) ===== */
+
+/* Desktop */
+.store-header{
+  margin-top:45px !important;
+}
+
+/* Mobile */
+@media (max-width:768px){
+  .store-header{
+    margin-top:75px !important;
+  }
+}

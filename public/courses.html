@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Courses – SN Security</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="store.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;900&family=Rajdhani:wght@300;400;600&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+<nav class="navbar">
+  <div class="nav-container">
+    <div class="nav-logo">
+      <a href="index.html" class="nav-home" aria-label="SN Security Home">
+        <img src="assets/logo.svg" alt="SN Security" width="40" height="40" decoding="async" loading="lazy">
+        <span>SN Security</span>
+      </a>
+    </div>
+    <div class="nav-toggle" id="navToggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+    <ul class="nav-menu" id="navMenu">
+      <li><a href="/index.html" class="nav-link">Home</a></li>
+      <li><a href="/roadmap.html" class="nav-link">Roadmap</a></li>
+      <li><a href="/tools.html" class="nav-link">Tools</a></li>
+      <li><a href="/tech-store.html" class="nav-link">Store</a></li>
+      <li><a href="/courses.html" class="nav-link">Courses</a></li>
+      <li><a href="/ctf-news.html" class="nav-link">CTF & News</a></li>
+      <li><a href="/osint.html" class="nav-link">OSINT</a></li>
+      <li><a href="/about.html" class="nav-link">About</a></li>
+      <li><a href="/contact.html" class="nav-link">Contact</a></li>
+      <li><a href="/legal.html" class="nav-link">Legal</a></li>
+    </ul>
+  </div>
+</nav>
+
+<main class="container store-main">
+  <header class="store-header">
+    <div class="store-brand">
+      <img class="store-logo" src="assets/logo.svg" alt="SN Security courses logo">
+      <div>
+        <h1>Courses</h1>
+        <div class="sub">Instructor-led courses & hands-on labs</div>
+      </div>
+    </div>
+
+    <div class="store-controls">
+      <a id="backLink" class="back-btn" href="./index.html" role="button" aria-label="Go back">Back to Home</a>
+      <div class="search-wrap">
+        <input id="searchInput" placeholder="Search courses, keywords..." aria-label="Search courses">
+        <button id="clearSearch" title="Clear search">✕</button>
+      </div>
+
+      <div class="filters" role="tablist" aria-label="Course categories">
+       <button class="filter-btn active" data-cat="all">All</button>
+      <button class="filter-btn" data-cat="ai">AI</button>
+      <button class="filter-btn" data-cat="cybersecurity">Cybersecurity</button>
+      <button class="filter-btn" data-cat="java">Java</button>
+      <button class="filter-btn" data-cat="python">Python</button>
+      <button class="filter-btn" data-cat="cloud">Cloud</button>
+      <button class="filter-btn" data-cat="coding">Coding</button>
+      </div>
+    </div>
+  </header>
+
+  <section class="store-main">
+    <div id="productGrid" class="product-grid" aria-live="polite"></div>
+  </section>
+</main>
+
+<div id="productModal" class="modal" aria-hidden="true">
+  <div class="modal-panel">
+    <button class="modal-close" aria-label="Close"> </button>
+    <div class="modal-body">
+      <img id="modalImg" src="" alt="Course image">
+      <div class="modal-info">
+        <h2 id="modalTitle"></h2>
+        <div id="modalCategory" class="muted"></div>
+        <p id="modalDesc"></p>
+        <div class="modal-actions">
+          <button id="modalBuy" class="btn neon">Enroll / Open</button>
+          <button id="modalClose" class="btn ghost">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="toast" class="toast" aria-hidden="true"></div>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <a href="/index.html" class="footer-home" aria-label="SN Security Home">
+                        <img src="/assets/logo.svg">
+                        <span>SN Security</span>
+                    </a>
+                </div>
+                <p class="footer-tagline">Learn Hacking. Secure Future.</p>
+                <div class="social-links">
+                    <a href="https://x.com/" class="social-link" target="_blank">X</a>
+                    <a href="https://github.com/sahebsheikh25" class="social-link" target="_blank">GitHub</a>
+                    <a href="https://www.linkedin.com/in/sahebsheikh/" class="social-link" target="_blank">LinkedIn</a>
+                </div>
+            </div>
+
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="/roadmap.html">Roadmap</a></li>
+                    <li><a href="/tools.html">Tools</a></li>
+                    <li><a href="/osint.html">OSINT</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul class="footer-links">
+                    <li><a href="/ctf-news.html">CTF & News</a></li>
+                    <li><a href="/about.html">About Us</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Legal</h3>
+                <ul class="footer-links">
+                    <li><a href="/legal.html">Privacy Policy</a></li>
+                    <li><a href="/legal.html">Terms of Service</a></li>
+                    <li><a href="/legal.html">Disclaimer</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2025 SN Security. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js" defer></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" defer></script>
+<script src="./ads.js" defer></script>
+<script src="./script.js" defer></script>
+<script src="./courses.js"></script>
+</body>
+</html>
