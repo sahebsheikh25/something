@@ -1,0 +1,24 @@
+<!-- SN Security Chatbot widget - include this snippet near the end of your <body> -->
+<link rel="stylesheet" href="/chatbot.css">
+<div id="sn-chat-root">
+  <button id="sn-chat-button" aria-label="Open SN Chat">⚡ SN Chat</button>
+
+  <div id="sn-chat-panel" aria-hidden="true">
+    <div class="sn-chat-header">
+      <div class="sn-chat-title">SN Security</div>
+      <button id="sn-chat-close" aria-label="Close chat">✕</button>
+    </div>
+
+    <div id="sn-chat-body">
+      <div id="sn-chat-messages" role="log" aria-live="polite"></div>
+      <div id="sn-chat-typing" class="hidden">●●●</div>
+    </div>
+
+    <form id="sn-chat-form" autocomplete="off">
+      <textarea id="sn-chat-input" rows="1" placeholder="Ask SN Security..." aria-label="Message"></textarea>
+      <button id="sn-chat-send" type="submit">Send</button>
+    </form>
+  </div>
+
+  <script src="/chatbot.js" defer></script>
+</div>
